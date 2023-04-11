@@ -15,16 +15,16 @@ DeactivateKeys=
 0=Control+space
 
 [Hotkey/EnumerateForwardKeys]
-0=Control+Alt+Up
-
-[Hotkey/EnumerateBackwardKeys]
 0=Control+Alt+Down
 
+[Hotkey/EnumerateBackwardKeys]
+0=Control+Alt+Up
+
 [Hotkey/EnumerateGroupForwardKeys]
-0=Control+Alt+Home
+0=Control+Alt+End
 
 [Hotkey/EnumerateGroupBackwardKeys]
-0=Control+Alt+End
+0=Control+Alt+Home
 
 [Hotkey/PrevPage]
 0=Up
