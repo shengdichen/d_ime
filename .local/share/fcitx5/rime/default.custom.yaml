@@ -1,0 +1,48 @@
+patch:
+  # number of candidates
+  menu/page_size: 4
+
+  # schemata {{{
+  schema_list:
+    # 地球
+    - schema: terra_pinyin
+
+    - schema: jyut6ping3
+
+    # misc {{{
+    # 朙月
+    #   default: luna_pinyin
+    #   simplified: luna_pinyin_simp
+    #   Taiwan: luna_pinyin_tw
+
+    # 吳語
+    #   新派: wugniu
+    #   老派: wugniu_lopha
+
+    # 小鶴: double_pinyin_flypy
+    # X-SAMPA IPA: ipa_xsampa
+    # builtin-emoji: : emoji
+    # }}}
+  # }}}
+
+  # switching against non-rime methods {{{
+  ascii_composer/switch_key:
+    # Note:
+    #   1.  commit_code:
+    #     1. input the entered text as ascii (bypass rime)
+    #     2.  enter ascii-mode
+    #   2. clear:
+    #     1. discard the entered text
+    #     2. enter ascii-mode
+    # Ref:
+    #   https://gist.github.com/lotem/2981316
+
+    Shift_R: commit_code
+    Control_R: clear
+
+    Caps_Lock: noop
+    Shift_L: noop
+    Control_L: noop
+  # }}}
+
+# vim: foldmethod=marker
