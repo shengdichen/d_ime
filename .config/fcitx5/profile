@@ -1,10 +1,10 @@
 [Groups/0]
 # Group Name
-Name=cjk
+Name=misc
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=rime
+DefaultIM=keyboard-ru-phonetic
 
 [Groups/0/Items/0]
 # Name
@@ -14,23 +14,23 @@ Layout=
 
 [Groups/0/Items/1]
 # Name
-Name=rime
+Name=keyboard-ru-phonetic
 # Layout
 Layout=
 
 [Groups/0/Items/2]
 # Name
-Name=mozc
+Name=keyboard-ara
 # Layout
 Layout=
 
 [Groups/1]
 # Group Name
-Name=Default
+Name=cjk
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ru-phonetic
+DefaultIM=rime
 
 [Groups/1/Items/0]
 # Name
@@ -40,17 +40,17 @@ Layout=
 
 [Groups/1/Items/1]
 # Name
-Name=keyboard-ru-phonetic
+Name=rime
 # Layout
 Layout=
 
 [Groups/1/Items/2]
 # Name
-Name=keyboard-ara
+Name=mozc
 # Layout
 Layout=
 
 [GroupOrder]
-0=cjk
-1=Default
+0=misc
+1=cjk
 
