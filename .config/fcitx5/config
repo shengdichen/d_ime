@@ -1,26 +1,29 @@
 [Hotkey]
-# Trigger Input Method
-TriggerKeys=
 # Enumerate when press trigger key repeatedly
 EnumerateWithTriggerKeys=True
 # Skip first input method while enumerating
-EnumerateSkipFirst=False
-# Enumerate Input Method Group Forward
-EnumerateGroupForwardKeys=
-# Enumerate Input Method Group Backward
-EnumerateGroupBackwardKeys=
+EnumerateSkipFirst=True
 # Activate Input Method
 ActivateKeys=
 # Deactivate Input Method
 DeactivateKeys=
 
-[Hotkey/AltTriggerKeys]
+[Hotkey/TriggerKeys]
 0=Control+Alt+space
 
+[Hotkey/AltTriggerKeys]
+0=Control+space
+
 [Hotkey/EnumerateForwardKeys]
-0=Control+Alt+Home
+0=Control+Alt+Up
 
 [Hotkey/EnumerateBackwardKeys]
+0=Control+Alt+Down
+
+[Hotkey/EnumerateGroupForwardKeys]
+0=Control+Alt+Home
+
+[Hotkey/EnumerateGroupBackwardKeys]
 0=Control+Alt+End
 
 [Hotkey/PrevPage]

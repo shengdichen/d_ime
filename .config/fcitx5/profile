@@ -1,10 +1,10 @@
 [Groups/0]
 # Group Name
-Name=Default
+Name=full
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=rime
+DefaultIM=keyboard-ch-fr
 
 [Groups/0/Items/0]
 # Name
@@ -14,10 +14,100 @@ Layout=
 
 [Groups/0/Items/1]
 # Name
+Name=keyboard-ch-fr
+# Layout
+Layout=
+
+[Groups/0/Items/2]
+# Name
 Name=rime
 # Layout
 Layout=
 
+[Groups/0/Items/3]
+# Name
+Name=keyboard-ru-phonetic
+# Layout
+Layout=
+
+[Groups/0/Items/4]
+# Name
+Name=keyboard-se
+# Layout
+Layout=
+
+[Groups/0/Items/5]
+# Name
+Name=keyboard-es
+# Layout
+Layout=
+
+[Groups/0/Items/6]
+# Name
+Name=mozc
+# Layout
+Layout=
+
+[Groups/0/Items/7]
+# Name
+Name=keyboard-ara
+# Layout
+Layout=
+
+[Groups/1]
+# Group Name
+Name=misc
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=keyboard-ru-phonetic
+
+[Groups/1/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/1/Items/1]
+# Name
+Name=keyboard-ru-phonetic
+# Layout
+Layout=
+
+[Groups/1/Items/2]
+# Name
+Name=keyboard-ara
+# Layout
+Layout=
+
+[Groups/2]
+# Group Name
+Name=cjk
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=rime
+
+[Groups/2/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/2/Items/1]
+# Name
+Name=rime
+# Layout
+Layout=
+
+[Groups/2/Items/2]
+# Name
+Name=mozc
+# Layout
+Layout=
+
 [GroupOrder]
-0=Default
+0=full
+1=misc
+2=cjk
 
