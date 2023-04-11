@@ -1,6 +1,6 @@
 [Groups/0]
 # Group Name
-Name=full
+Name=main
 # Layout
 Default Layout=us
 # Default Input Method
@@ -30,25 +30,57 @@ Name=keyboard-ru-phonetic
 # Layout
 Layout=
 
-[Groups/0/Items/4]
+[Groups/1]
+# Group Name
+Name=full
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=keyboard-ch-fr
+
+[Groups/1/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/1/Items/1]
+# Name
+Name=keyboard-ch-fr
+# Layout
+Layout=
+
+[Groups/1/Items/2]
+# Name
+Name=rime
+# Layout
+Layout=
+
+[Groups/1/Items/3]
+# Name
+Name=keyboard-ru-phonetic
+# Layout
+Layout=
+
+[Groups/1/Items/4]
 # Name
 Name=keyboard-se
 # Layout
 Layout=
 
-[Groups/0/Items/5]
+[Groups/1/Items/5]
 # Name
 Name=keyboard-es
 # Layout
 Layout=
 
-[Groups/0/Items/6]
+[Groups/1/Items/6]
 # Name
 Name=mozc
 # Layout
 Layout=
 
-[Groups/0/Items/7]
+[Groups/1/Items/7]
 # Name
 Name=keyboard-ara
 # Layout
@@ -56,4 +88,5 @@ Layout=
 
 [GroupOrder]
 0=full
+1=main
 
