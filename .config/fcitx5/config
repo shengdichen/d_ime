@@ -4,7 +4,7 @@ TriggerKeys=
 # Enumerate when press trigger key repeatedly
 EnumerateWithTriggerKeys=True
 # Skip first input method while enumerating
-EnumerateSkipFirst=False
+EnumerateSkipFirst=True
 # Activate Input Method
 ActivateKeys=
 # Deactivate Input Method
