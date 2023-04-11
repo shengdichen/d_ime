@@ -1,6 +1,6 @@
 [Groups/0]
 # Group Name
-Name=Default
+Name=cjk
 # Layout
 Default Layout=us
 # Default Input Method
@@ -20,22 +20,37 @@ Layout=
 
 [Groups/0/Items/2]
 # Name
+Name=mozc
+# Layout
+Layout=
+
+[Groups/1]
+# Group Name
+Name=Default
+# Layout
+Default Layout=us
+# Default Input Method
+DefaultIM=keyboard-ru-phonetic
+
+[Groups/1/Items/0]
+# Name
+Name=keyboard-us
+# Layout
+Layout=
+
+[Groups/1/Items/1]
+# Name
 Name=keyboard-ru-phonetic
 # Layout
 Layout=
 
-[Groups/0/Items/3]
+[Groups/1/Items/2]
 # Name
 Name=keyboard-ara
 # Layout
 Layout=
 
-[Groups/0/Items/4]
-# Name
-Name=mozc
-# Layout
-Layout=
-
 [GroupOrder]
-0=Default
+0=cjk
+1=Default
 
