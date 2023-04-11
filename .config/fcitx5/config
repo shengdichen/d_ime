@@ -5,10 +5,6 @@ TriggerKeys=
 EnumerateWithTriggerKeys=True
 # Skip first input method while enumerating
 EnumerateSkipFirst=False
-# Enumerate Input Method Group Forward
-EnumerateGroupForwardKeys=
-# Enumerate Input Method Group Backward
-EnumerateGroupBackwardKeys=
 # Activate Input Method
 ActivateKeys=
 # Deactivate Input Method
@@ -18,9 +14,15 @@ DeactivateKeys=
 0=Control+Alt+space
 
 [Hotkey/EnumerateForwardKeys]
-0=Control+Alt+Home
+0=Control+Alt+Up
 
 [Hotkey/EnumerateBackwardKeys]
+0=Control+Alt+Down
+
+[Hotkey/EnumerateGroupForwardKeys]
+0=Control+Alt+Home
+
+[Hotkey/EnumerateGroupBackwardKeys]
 0=Control+Alt+End
 
 [Hotkey/PrevPage]
