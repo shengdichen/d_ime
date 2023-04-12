@@ -87,6 +87,6 @@ Name=keyboard-ara
 Layout=
 
 [GroupOrder]
-0=full
-1=main
+0=main
+1=full
 
