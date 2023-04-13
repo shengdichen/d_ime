@@ -4,7 +4,7 @@ Name=main
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ch-fr
+DefaultIM=rime
 
 [Groups/0/Items/0]
 # Name
@@ -36,7 +36,7 @@ Name=full
 # Layout
 Default Layout=us
 # Default Input Method
-DefaultIM=keyboard-ch-fr
+DefaultIM=keyboard-se
 
 [Groups/1/Items/0]
 # Name
@@ -87,6 +87,6 @@ Name=keyboard-ara
 Layout=
 
 [GroupOrder]
-0=full
-1=main
+0=main
+1=full
 
