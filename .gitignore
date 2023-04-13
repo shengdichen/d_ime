@@ -1,4 +1,5 @@
 .config/fcitx/dbus/
+.config/fcitx5/conf/cached_layouts
 .config/mozc/
 
 .local/share/fcitx5/rime/
